@@ -11,6 +11,16 @@ int main(
     }
 
     //
+    // Ignore return of set_utf8(),
+    // we just want to try and set
+    // the encoding to utf8 as it
+    // is probably the best one to
+    // use.
+    //
+
+    (void) set_utf8();
+
+    //
     // Turn argv into a vector of strings
     // mainly for convenience, also because
     // parse_args accepts a vector of strings

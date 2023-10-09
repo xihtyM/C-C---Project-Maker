@@ -6,6 +6,7 @@
 #include <vector>
 #include <memory>
 #include <string>
+#include "utf8.h"
 #include "null.h"
 
 
